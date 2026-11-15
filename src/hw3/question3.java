@@ -8,7 +8,7 @@ public class question3 {
 		System.out.println("enter a number");
 		int num = scan.nextInt();
 		System.out.println();
-		int[] array =new int[49];
+		int[] array = new int[49];
 		for (int i = 0; i < array.length; i++) {
 			array[i] = i + 1;
 			if (array[i] / 10 != num) {
